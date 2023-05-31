@@ -59,7 +59,9 @@ async def process_start_command(msg: types.Message):
     elif msg.text ==  b3:
         await bot.send_message(msg.chat.id, """Для участия в конкурсе переходите на профили партнеров:
 https://instagram.com/vinniy_bazar
-https://instagram.com/kimmy.lab""")
+https://instagram.com/kimmy.lab
+https://instagram.com/vinniy_bazar_kuznetsky
+""")
 
     elif msg.text == b4:
         await bot.send_message(msg.chat.id, "https://t.me/Dianaist96")
